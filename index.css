@@ -1,0 +1,838 @@
+#d1{
+    height: 80vh;
+    width: 1300px;
+    border: 2px solid white;
+    background-color: #fad;
+    background-image: url("house-1836070_1280.jpg");
+    /* opacity: 0.6; */
+    margin: 20px;
+    background-size: cover;
+   
+}
+
+#nav{
+    height: 100px;
+    width: 1170px;
+    /* border: 2px solid black; */
+    margin: 20px;
+    background-color: white;
+    display: flex;
+    margin-left: 70px;
+    margin-right: 70px;
+    
+    
+}
+
+#nav_1{
+    height: 120px;
+    width: 70%;
+    /* border: 2px solid black; */
+    background-color: #e47312;
+   
+
+    
+       
+}
+
+#nav_1 p{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+#nav ul {
+    display: flex;
+    list-style: none;
+    /* border: 2px solid black; */
+    margin-left: 400px;
+    margin-top: 30px;
+}
+
+
+
+#nav ul li{
+    padding: 7px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+
+#nav_2{
+    height: 100px;
+    width: 70%;
+    /* border: 2px solid black; */
+    margin-left: 0%;
+    background-color: #e47312;
+}
+
+#nav_2 p{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#create{
+    /* border: 2px solid black; */
+    color: white;
+    font-family: 'Dosis', sans-serif;
+     margin-top: 50px;
+     padding-left: 40px;
+     font-size: larger;
+     margin-left: 40px;
+     width: 800px;
+     display: inline-block;
+}
+
+#four_logo{
+    height: 250px;
+    width: 60px;
+    border: 1px solid black;
+    float: right;
+    margin-top: 34px;
+    text-align: center;
+    background-color: rgb(5, 5, 49);
+}
+
+#four_logo i{
+    color: white;
+    margin: 20px;
+    /* text-decoration: underline rgb(255, 255, 255); */
+    /* text-underline-position: under ; */
+    border-bottom: 2px solid white;
+    padding-bottom: 3px;
+}
+
+
+#create #h1{
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-size: 50px;
+    margin: 0px;
+}
+
+#btn{
+    height: 50px;
+    width: 150px;
+    border: none;
+    background-color: #e47312;
+    color: white;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 80px;
+    cursor: pointer;
+}
+
+#open_time{
+    height: 220px;
+    width: 1000px;
+    margin-top: 50px;
+    margin-left: 300px;
+    background-color: #dd7f2d;
+    display: flex;
+}
+
+#open_time01{
+    height: 150px;
+    width: 180px;
+    /* border: 1px solid black; */
+    margin-left: 100px;
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+}
+
+#open_time02{
+    height: 150px;
+    width: 180px;
+    /* border: 1px solid black; */
+    margin-left: 100px;
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+}
+
+#open_time i{
+    font-size: 20px;
+}
+
+
+#open_time03{
+    height: 150px;
+    width: 180px;
+    /* border: 1px solid black; */
+    margin-left: 150px;
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+}
+
+/* div_2 CSS start from here! */
+
+#d2{
+    height: 550px;
+    width: 1200px;
+    /* border: 1px solid black; */
+    margin-top: 140px;
+    margin-left: 70px;
+    margin-right: 70px;
+    
+} 
+
+#d2 i{
+    color: #e47312;
+}
+
+#getfreequote{
+    height: 638px;
+    width: 450px;
+    margin-left: 64%;
+    margin-top: -330px;
+    position: absolute;
+    /* border: 1px solid black; */
+    background-color: whitesmoke;
+    display: none;
+    
+    
+}
+
+
+
+#getfreequote div{
+    background-color: #e47312;
+    height: 70px;
+    width: 90px;
+    text-align: center;
+    float: right;
+    
+}
+
+#getfreequote i{
+    /* float: right; */
+    font-size: larger;
+    /* margin-right: 10px; */
+    margin-top: 20px;
+    color: white;
+    cursor: pointer;
+    
+}
+
+form{
+    height: 550px;
+    width: 370px;
+    /* border: 1px solid black; */
+    margin-top: 80px;
+    margin-left: 50px;
+    font-size: smaller;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+form input{
+    border-style: none none solid;
+    background-color: whitesmoke;
+    height: 24px;
+    width: 90%;
+    margin-bottom: 20px;  
+    border-bottom: 1px solid #e47312;
+}
+
+form textarea{
+    border-style: none;
+    background-color: whitesmoke;
+    border-bottom: 1px solid #e47312;
+}
+
+form button{
+    /* margin-left: 110px; */
+    height: 40px;
+    width: 350px;
+    border: none;
+    background-color: #e47312;
+    color: white;
+}
+
+#special{
+    /* border: 1px solid black; */
+    
+    margin-top: 40px;
+    margin-left: 40px;
+    font-family: 'Dosis', sans-serif; 
+    display: flex;
+    
+}
+
+#viewallservices{
+    /* border: 1px solid black; */
+    margin-left: 56%;
+    padding-top: 16px;
+    font-size: small;
+    text-decoration: underline red 2px;
+  
+}
+
+
+#services{
+    display: flex;
+    /* text-align: center; */
+}
+
+#services p{
+    color: gray;
+}
+
+#services i{
+    font-size: 40px;
+}
+
+#services_1{
+    /* border: 1px solid black; */
+    height: 250px;
+    width: 380px;
+    margin-top: 70px;
+    margin-left: 20px;
+    font-family: 'Dosis', sans-serif;
+}
+
+#services_2{
+    /* border: 1px solid black; */
+    height: 250px;
+    width: 350px;
+    margin-top:70px;
+    margin-left: 20px;
+    font-family: 'Dosis', sans-serif;
+}
+
+#services_3{
+    /* border: 1px solid black; */
+    height: 250px;
+    width: 350px;
+    margin-top:70px;
+    margin-left: 10px;
+    font-family: 'Dosis', sans-serif;
+}
+
+#services_4{
+    /* border: 1px solid black; */
+    height: 250px;
+    width: 350px;
+    margin-top:70px;
+    margin-left: 10px;
+    margin-right: 20px;
+    font-family: 'Dosis', sans-serif;
+}
+
+/* div_3 (id='d3') CSS starts from here!*/
+
+#d3{
+    height: 480px;
+    width: 1200px;
+    /* border: 1px solid black; */
+    /* margin-top: 2px; */
+    margin-left: 70px;
+    margin-right: 70px;
+    display: flex;
+}
+
+#d3 #d3_image img{
+    /* border: 1px solid black; */
+    height: 400px;
+    width: 590px;
+
+}
+
+#who_we_are{
+    height: 400px;
+    width: 600px;
+    /* border: 1px solid black; */
+    margin-left: 20px;
+    
+}
+
+#who_we_are h1{
+    font-family: 'Dosis', sans-serif;
+    font-size: 40px
+}
+
+#who_we_are p{
+    color: gray;
+    font-family: 'Dosis', sans-serif;
+}
+
+/* div_4 CSS starts from here! */
+
+#d4{
+    height: 250px;
+    width: 1330px;
+    /* border: 1px solid black; */
+    display: flex;
+}    
+
+#d4 h1{
+    font-size: 60px;
+    color: orangered;
+    font-family: 'Dosis', sans-serif;
+}
+
+#d4 p{
+    color: gray;
+}
+
+#d4_01{
+    /* border: 1px solid black;
+    height: 150px; */
+    width: 160px;
+    margin-left: 100px;
+}
+
+#d4_02{
+    /* border: 1px solid black;
+    height: 150px; */
+    width: 160px;
+    margin-left: 130px;
+}
+
+#d4_03{
+    /* border: 1px solid black;
+    height: 150px; */
+    width: 160px;
+    margin-left: 130px;
+}
+
+#d4_04{
+    /* border: 1px solid black;
+    height: 150px; */
+    width: 160px;
+    margin-left: 130px;
+}
+
+
+/* div 5 CSS start from here! */
+
+#d5{
+    height: 870px;
+    width: 1330px;
+    /* border: 1px solid black; */
+    background-color: rgb(239, 230, 232);
+    font-family: 'Dosis', sans-serif;
+
+}
+
+#our_work{
+    /* border: 1px solid black; */
+    display: flex;
+    margin-left: 60px;
+    margin-top: 60px;
+    
+}
+
+#d5_view_works{
+    /* border: 1px solid black; */
+    margin-left: 70%;
+    padding-top: 16px;
+    font-size: small;
+    text-decoration: underline red 2px;
+}
+
+#card6{
+    height: 800px;
+    width: 1306px;
+    /* border: 1px solid black; */
+    margin-left: 10px;
+    
+    display: flex;
+    /* background-color: red; */
+    /* width: 100%; */
+    /* margin: 10px; */
+    flex-wrap: wrap;
+    /* padding-left: 170px; */
+}
+
+.card{
+    height: 80px;
+    width: 80px;
+    /* border: 1px solid black; */
+    background-color: #dd7f2d;
+    position: absolute;
+    border-radius: 40px;
+    margin-top: -220px;
+    margin-left: 130px;
+    /* display: none; */
+}
+
+.card p{
+    font-size: x-small;
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+}
+
+.card_01{
+    height: 350px;
+    width: 350px;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    margin-left: 60px;
+
+    /* flex-wrap: wrap; */
+}
+
+.card_01 img{
+    height: 350px;
+    width: 350px;
+}
+
+/* div_6 CSS starts from here! */
+
+#d6{
+    height: 200px;
+    width: 1327px;
+    /* border: 1px solid black; */
+    background-color: #dd7f2d;
+    text-align: center;
+    color: white;
+    padding-top: 80px;
+}
+
+/* d7 CSS starts from here! */
+
+#d7{
+    height: 1200px;
+    width: 1327px;
+    /* border: 1px solid black; */
+    background-color: whitesmoke;
+    font-family: 'Dosis', sans-serif;
+}
+
+#d7 #professionals{
+    height: 100px;
+    width: 1240px;
+    /* border: 1px solid black; */
+    display: flex;
+    padding-left: 80px;
+    margin-top: 60px;
+}
+
+#professionals_para{
+    /* border: 1px solid black; */
+    height: 60px;
+    width: 100px;
+    margin-left: 65%;
+    margin-top: 25px;
+   
+}
+
+#professionals_para p{
+    border-bottom:2px solid #dd7f2d;
+    text-align: center;
+
+}
+
+#four_img{
+    height: 400px;
+    width: 1300px;
+    margin-left: 15px;
+    /* border: 1px solid black; */
+    display: flex;
+    /* background-color: red; */
+}
+
+#four_img01{
+    height: 400px;
+    width: 300px;
+    /* border: 1px solid black; */
+    margin-left: 20px;
+    background-image: url("model1.jpg");
+    background-size: 360px 300px;
+    background-repeat: no-repeat;
+}
+
+
+
+#four_img p{
+    margin-left: 20px;
+    margin-top: 320px;
+}
+
+
+#four_img02{
+    height: 400px;
+    width: 300px;
+    /* border: 1px solid black; */
+    margin-left: 20px;
+    background-image: url("model2.jpg");
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+}
+
+
+#four_img02 img{
+    height: 300px;
+    width: 300px;
+    
+    
+}
+
+#four_img02 p{
+    margin-left: 20px;
+}
+
+
+#four_img03{
+    height: 400px;
+    width: 300px;
+    /* border: 1px solid black; */
+    margin-left: 20px;
+    background-image: url("model3.jpg");
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+}
+
+
+#four_img03 img{
+    height: 300px;
+    width: 300px;
+    
+    
+}
+
+#four_img03 p{
+    margin-left: 20px;
+}
+
+
+#four_img04{
+    height: 400px;
+    width: 300px;
+    /* border: 1px solid black; */
+    margin-left: 20px;
+    background-image: url("model4.avif");
+    background-size: 360px 300px;
+    background-repeat: no-repeat;
+}
+
+
+#four_img04 img{
+    height: 300px;
+    width: 300px;
+    
+    
+}
+
+#four_img04 p{
+    margin-left: 20px;
+}
+
+.logos{
+    height: 150px;
+    width: 50px;
+    /* border: 1px solid black; */
+    float: right;
+   background-color: #e47312;
+    margin-top: -143px;
+    
+}
+
+.logos i{
+    font-size: 30px;
+    margin-left: 12px;
+    margin-top: 6px;
+    color: white;
+}
+
+#testimonals{
+    height: 450px;
+    width: 450px;
+    /* border: 1px solid black; */
+    margin-top: 270px;
+    margin-left: 80px;
+    font-family: 'Dosis', sans-serif;
+}
+
+#sara_william{
+    height: 550px;
+    width: 650px;
+    /* border: 1px solid black; */
+    margin-top: 140px;
+    margin-left: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.saraone{
+    height: 200px;
+    width: 250px;
+    /* border: 1px solid black; */
+    margin: 22px;
+    text-align: center;
+    background-color: white;
+    font-family: 'Dosis', sans-serif;
+}
+
+.saraone p{
+    color: gray;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+#sara_two{
+    margin-top: 80px;
+    height: 180px;
+}
+
+#sara_three{
+    margin-top: 1px;
+}
+
+/* div8 id=d8 CSS starts from here! */
+
+#d8{
+    height: 600px;
+    width: 1330px;
+    /* border: 1px solid black; */
+    margin-top: 100px;
+    font-family: 'Dosis', sans-serif;
+    
+}
+
+.blogspot1{
+    display: flex;
+    /* flex-wrap: wrap; */
+    
+}
+
+.blogspot{
+    height: 400px;
+    width: 360px;
+    /* border: 1px solid black; */
+    margin-left: 63px;
+    margin-top: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+    background-color: #e47312;
+    
+}
+
+.blogspot h3{
+    margin-top: 240px;
+}
+
+.blogspot p{
+    margin-top: 20px;
+}
+
+#blog1{
+    background-image: url("blogspot1.jpg");
+}
+
+#blog2{
+    background-image: url("blogspot2.jpg");
+}
+
+#blog3{
+    background-image: url("blogspot3.jpg");
+}
+
+.oct{
+    height: 70px;
+    width: 65px;
+    /* border: 1px solid black; */
+    background-color: #e47312;
+    float: right;
+    text-align: center;
+}
+
+.oct17{
+    background-color: white;
+    height: 40px;
+    width: 65px;
+    margin-top: 30px;
+    color: gray;
+    text-align: center;
+    
+}
+
+
+/* div 9 CSS starts from here! */
+
+#d9{
+    height: 170px;
+    width: 1300px;
+    /* border: 1px solid black; */
+    margin-left: 18px;
+    background-color: #e47312;
+}
+
+#d9 p{
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 70px;
+    color: white;
+    font-size: larger;
+    font-family: 'Dosis', sans-serif;
+}
+
+/* div 10 CSS start s from here! */
+
+#d10{
+    height: 500px;
+    width: 1130px;
+    margin-left: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    
+    background-color: rgb(0, 0, 49);
+}
+
+#d10 p{
+    margin-top: 40px;
+    color: white;
+}
+
+.d10_one{
+    height: 260px;
+    width: 280px;
+    /* border: 1px solid black; */
+    margin: 37px;
+    font-family: 'Dosis', sans-serif;
+    font-size: small;
+    margin-bottom: 0px;
+}
+
+.d10_one i{
+    margin-right: 15px;
+}
+
+em{
+    margin-left: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#nuuk{
+    height: 110px;
+    width: 150px;
+    /* border: 1px solid black; */
+    background-color: #e47312;
+    margin-top: -116px;
+    margin-left: 140px;
+    color: white;
+    text-align: center;
+    padding-top: 3px;
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
